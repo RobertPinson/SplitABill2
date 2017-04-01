@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_bills_header.xml",
+        "source": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\src\\main\\res\\layout\\listview_bills_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splitabill.xml",
+        "source": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\src\\main\\res\\layout\\activity_splitabill.xml"
+    },
+    {
+        "merged": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bill_row.xml",
+        "source": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\src\\main\\res\\layout\\bill_row.xml"
+    }
+]

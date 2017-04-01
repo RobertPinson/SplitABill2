@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\pinso\\.android\\build-cache\\dd544a42fbe0ccc6b382055dbf37eb6114964900\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\pinso\\.android\\build-cache\\dd544a42fbe0ccc6b382055dbf37eb6114964900\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\pinso\\StudioProjects\\SplitABill\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\pinso\\.android\\build-cache\\dd544a42fbe0ccc6b382055dbf37eb6114964900\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ad_banner">false</item>
+    <item type="id" name="listview_bills">false</item>
+    <item type="id" name="bill_name">false</item>
+    <item type="id" name="bill_ammount">false</item>
+    <item type="id" name="layout_bill_total">false</item>
+    <item type="id" name="bill_total">false</item>
+    <item type="id" name="total_value">false</item>
+    <item type="id" name="layout_servicecharge">false</item>
+    <item type="id" name="layout_service_charge_value">false</item>
+    <item type="id" name="service_value">false</item>
+    <item type="id" name="toggleGroup">false</item>
+    <item type="id" name="btn_service_percent">false</item>
+    <item type="id" name="btn_service_value">false</item>
+    <item type="id" name="layout_service_charge_total">false</item>
+    <item type="id" name="service_charge_total">false</item>
+    <item type="id" name="layout_subtotal">false</item>
+    <item type="id" name="sub_total">false</item>
+    <item type="id" name="subtotal_value">false</item>
+    <item type="id" name="layout_splitby">false</item>
+    <item type="id" name="edit_splitby">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

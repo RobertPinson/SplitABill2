@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="btn_up">#ff78bcbc</item>
+    <item type="drawable" name="btn_down">#ff66a0a0</item>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\0a047dd90036b7bc6d84419483440240983b9276\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d14c209b615bee04e038b477a7d94f298438815\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\b47148d48274d4d6302e5d278843eec4939cd2ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f83e0b19647a78f124d3b41a91783539073cea5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0ace0954ccf94c97bbe8c2866ad1f2def74ad8d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\dd544a42fbe0ccc6b382055dbf37eb6114964900\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdf7ee818e0f1fd47970b4eaf627ebb04e5bae5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\20ea78b53df1ca90f93829de5250313f928eebc7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6fd928948b3d81ffd52989e57a9b9b64f938f285\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\60e20e204d037d8c9de3628bb9232d399720a64a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6139bd344e2dd9b2b3ffc08e2b01a9db06b6499b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_656e96f62aebd754cac60b33316b5fd51bb79da9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\f58f536f94a1e7e25810a3d8cb0d4b258d843fb5\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_6fab31f8db9065625af8bd8a69ebc692e5833358\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96693bd72560b21f862b4636f8dada774b95ad79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b258d60b553a1299a9552ee7854310e9b0f84c46">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6a564ba69be74f9a3219a9ece6047cd2c9fb7aa4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\f58f536f94a1e7e25810a3d8cb0d4b258d843fb5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d4cd75ecba241b54f35ea25735ca54c930155b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pinso\.android\build-cache\404fc54a5cc2521c6ca9f5dfd2646efac5c469fd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a2d205ab081f836e03f8a6eb77506e58750f8d7\classes.dex" />
+    </item>
+
+</items>
