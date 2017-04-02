@@ -28,7 +28,7 @@
             android:minHeight="600dp"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:descendantFocusability="afterDescendants"
+            android:scrollbarStyle="outsideInset"
             />
     </LinearLayout>
 

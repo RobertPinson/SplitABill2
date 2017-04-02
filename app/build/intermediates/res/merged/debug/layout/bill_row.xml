@@ -8,9 +8,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:paddingLeft="10dp"
         android:gravity = "left"
-        android:textSize="20sp">
+        android:textSize="20sp"
+        >
     </TextView>
 
     <TextView
@@ -19,6 +19,6 @@
         android:layout_height="wrap_content"
         android:gravity="right"
         android:textSize="20sp"
-        android:paddingRight="5dp">
+        >
     </TextView>
 </LinearLayout>
