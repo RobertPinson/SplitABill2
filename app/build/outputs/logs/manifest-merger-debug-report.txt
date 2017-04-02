@@ -32,11 +32,21 @@ MERGED from [com.android.support:support-v4:24.0.0] C:\Users\pinso\.android\buil
 		INJECTED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:8:9-34
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:8:9-35
 		INJECTED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:12:22-64
 application
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:11:5-33:19
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:14:5-36:19
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\pinso\.android\build-cache\404fc54a5cc2521c6ca9f5dfd2646efac5c469fd\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\pinso\.android\build-cache\dd544a42fbe0ccc6b382055dbf37eb6114964900\output\AndroidManifest.xml:18:5-20:19
@@ -45,57 +55,47 @@ MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\pinso\.a
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\pinso\.android\build-cache\b47148d48274d4d6302e5d278843eec4939cd2ed\output\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\pinso\.android\build-cache\f58f536f94a1e7e25810a3d8cb0d4b258d843fb5\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:17:9-41
 	android:allowBackup
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:16:9-47
 	android:theme
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:18:9-40
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:16:3-116
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:19:3-116
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\pinso\.android\build-cache\b47148d48274d4d6302e5d278843eec4939cd2ed\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:16:60-113
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:19:60-113
 	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:16:14-59
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:19:14-59
 activity#com.homeworld.splitabill.SplitABillActivity
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:17:9-27:20
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:20:9-30:20
 	android:label
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:22:13-45
 	android:windowSoftInputMode
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:20:13-65
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:23:13-65
 	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:18:13-71
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:21:13-71
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.google.android.gms.ads.AdActivity
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:28:9-30:125
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:31:9-33:125
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:30:13-122
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:33:13-122
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:29:9-61
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:35:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:20:5-78
-	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:35:22-76
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:36:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:19:5-66
-	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:36:22-64
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:32:9-61
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:26:9-131
 	android:theme

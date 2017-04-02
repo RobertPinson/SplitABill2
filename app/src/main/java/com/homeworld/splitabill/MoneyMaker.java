@@ -61,7 +61,7 @@ public final class MoneyMaker {
      * according to the default rounding mode given (N.B. the money interface has another round method that allows you
      * pass in an ad-hoc rounding mode).
      * @param currency The currency of the Money.
-     * @param value The amount of the Money.
+     * @param amount The amount of the Money.
      * @param defaultRoundingMode the rounding mode this money instance should use by default.
      * @return an instance of Money.
      */

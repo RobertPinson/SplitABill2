@@ -154,7 +154,7 @@ public class SplitABillActivity extends Activity {
 						serviceChargePercent = (serviceChargeValue / billTotal) * 100;
 					}
 					
-					String pctFormated = String.format("%.2f %%", serviceChargePercent);
+					String pctFormated = String.format(Locale.ENGLISH, "%.2f %%", serviceChargePercent);
 
 					serviceChargeTotal.setText(pctFormated);					
 					setGrandTotal(currency, digits, nf);
@@ -203,7 +203,7 @@ public class SplitABillActivity extends Activity {
 
 		int splitValue = savedInstanceState.getInt("splitBy");
 		TextView splitBy = (TextView) findViewById(R.id.edit_splitby);
-		splitBy.setText(String.format("%02d", splitValue));
+		splitBy.setText(String.format(Locale.ENGLISH,"%02d", splitValue));
 
 		TextView grandTotal = (TextView) findViewById(R.id.subtotal_value);
 		String total = grandTotal.getText().toString();
@@ -250,7 +250,7 @@ public class SplitABillActivity extends Activity {
 				split--;
 			}
 
-			splitBy.setText(String.format("%02d", split));
+			splitBy.setText(String.format(Locale.ENGLISH,"%02d", split));
 
 			TextView grandTotal = (TextView) findViewById(R.id.subtotal_value);
 			BigDecimal totalValue = new BigDecimal(
@@ -271,7 +271,7 @@ public class SplitABillActivity extends Activity {
 				split++;
 			}
 
-			splitBy.setText(String.format("%02d", split));
+			splitBy.setText(String.format(Locale.ENGLISH,"%02d", split));
 
 			TextView grandTotal = (TextView) findViewById(R.id.subtotal_value);
 			BigDecimal totalValue = new BigDecimal(
@@ -288,21 +288,7 @@ public class SplitABillActivity extends Activity {
 		((RadioGroup) view.getParent()).check(view.getId());
 		EditText serviceChargeValue = (EditText) findViewById(R.id.service_value);
 		String scValue = serviceChargeValue.getText().toString();
-
-		switch (view.getId()) {
-		case R.id.btn_service_value:
-			// calculate service charge by value
-
-			// update UI
-			serviceChargeValue.setText(scValue); // update service charge value
-			break;
-		case R.id.btn_service_percent:
-			// calculate service charge by percent
-
-			// update UI
-			serviceChargeValue.setText(scValue); // set service charge
-			break;
-		}
+        serviceChargeValue.setText(scValue); // update service charge value
 	}
 	
 	private Double getBillTotal() {
@@ -318,8 +304,7 @@ public class SplitABillActivity extends Activity {
 		}
 		else
 		{
-			Double totalValue = Double.parseDouble(sTotal) / 100;
-			return totalValue;
+            return Double.parseDouble(sTotal) / 100;
 		}
 	}
 
@@ -344,7 +329,7 @@ public class SplitABillActivity extends Activity {
 			String formatted = nf.format(grandTotal);
 			grandTotalValue.setText(formatted);
 
-            BigDecimal subTotalValue = new BigDecimal(grandTotal);
+            BigDecimal subTotalValue = new BigDecimal(CurrencyStringClean(grandTotalValue.getText().toString()));
             if (subTotalValue.signum() > 0)
             {
                 TextView splitBy = (TextView) findViewById(R.id.edit_splitby);
@@ -383,7 +368,7 @@ public class SplitABillActivity extends Activity {
 		final SplitBillAdapter adapter;
 		final ListView listview = (ListView) findViewById(R.id.listview_bills);
 
-		ArrayList<BillItem> billList = new ArrayList<BillItem>();
+		ArrayList<BillItem> billList = new ArrayList<>();
 
 		if (split <= 0 || billTotal.signum() < 1) {
 			adapter = new SplitBillAdapter(this, billList);
@@ -403,7 +388,7 @@ public class SplitABillActivity extends Activity {
 		int index = 0;
 		for (Money bill : bills) {
 			index++;
-			billList.add(new BillItem(String.format("Bill %01d", index),
+			billList.add(new BillItem(String.format(Locale.ENGLISH,"Bill %01d", index),
 					NumberFormat.getCurrencyInstance().format(bill.value())));
 		}
 
