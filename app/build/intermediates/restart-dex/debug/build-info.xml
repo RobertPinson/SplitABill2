@@ -6,22 +6,22 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491077441447"
+    timestamp="1491162775810"
     token="-9182413373254806579"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="201" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="8" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
         location="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -32,11 +32,14 @@
 
     <build
         build-mode="FULL"
-        timestamp="1491077303129"
+        timestamp="1491159188718"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\pinso\StudioProjects\SplitABill\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -67,13 +70,18 @@
         <artifact
             location="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491162653759"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\pinso\StudioProjects\SplitABill\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491077441447"
+        timestamp="1491162775810"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\pinso\StudioProjects\SplitABill\app\build\intermediates\split-apk\debug\slices\slice_2.apk"

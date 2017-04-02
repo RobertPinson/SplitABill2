@@ -26,9 +26,11 @@ public class SplitABillActivity extends Activity {
 	/* Your ad unit id. Replace with your actual ad unit id. */
 	private static final String AD_UNIT_ID = "ca-app-pub-7612725563518677/7747794144";
 
+    EditText focusedEditText;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+
+        super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splitabill);
 
 		// set list view header view
@@ -36,6 +38,12 @@ public class SplitABillActivity extends Activity {
 		View header = getLayoutInflater().inflate(
 				R.layout.listview_bills_header, null);
 		listview.addHeaderView(header);
+
+        final EditText total = (EditText) findViewById(R.id.total_value);
+        setOnFocusChangeListener(total);
+
+        final EditText serviceChargeValue = (EditText) findViewById(R.id.service_value);
+        setOnFocusChangeListener(serviceChargeValue);
 
 		SplitBill(0, new BigDecimal(0));
 
@@ -58,7 +66,6 @@ public class SplitABillActivity extends Activity {
 		// load add view with ad request
 		adView.loadAd(adRequest);
 
-		final EditText total = (EditText) findViewById(R.id.total_value);
 		total.addTextChangedListener(new TextWatcher() {
 
 			@Override
@@ -77,12 +84,10 @@ public class SplitABillActivity extends Activity {
 				try {
 					String formatted = nf.format(Double.parseDouble(digits) / 100);
 
-					BigDecimal totalValue = new BigDecimal(
-							CurrencyStringClean(formatted));
-					TextView splitBy = (TextView) findViewById(R.id.edit_splitby);
-					int split = Integer.parseInt(splitBy.getText().toString());
-					SplitBill(split, totalValue);	
-					
+					//trigger service charge calculation
+					String scValue = serviceChargeValue.getText().toString();
+					serviceChargeValue.setText(scValue); // update service charge value
+
 					total.removeTextChangedListener(this);
 					total.setText(formatted);
 					total.setSelection(formatted.length());
@@ -108,7 +113,6 @@ public class SplitABillActivity extends Activity {
 		((RadioGroup) findViewById(R.id.toggleGroup))
 				.setOnCheckedChangeListener(ToggleListener);
 
-		final EditText serviceChargeValue = (EditText) findViewById(R.id.service_value);
 		serviceChargeValue.addTextChangedListener(new TextWatcher() {
 
 			@Override
@@ -177,6 +181,7 @@ public class SplitABillActivity extends Activity {
 		});
 
 		serviceChargeValue.setText("20"); // set default service charge value
+        total.requestFocus();
 	}
 
 	@Override
@@ -323,8 +328,7 @@ public class SplitABillActivity extends Activity {
 		}
 	}
 
-	private void setGrandTotal(Currency currency, String serviceCharge,
-			NumberFormat nf) {
+	private void setGrandTotal(Currency currency, String serviceCharge,	NumberFormat nf) {
 		//set grand total
 		final EditText billTotal = (EditText) findViewById(R.id.total_value);
 		
@@ -344,10 +348,30 @@ public class SplitABillActivity extends Activity {
 		try {
 			String formatted = nf.format(grandTotal);
 			grandTotalValue.setText(formatted);
+
+            BigDecimal subTotalValue = new BigDecimal(grandTotal);
+            if (subTotalValue.signum() > 0)
+            {
+                TextView splitBy = (TextView) findViewById(R.id.edit_splitby);
+                int split = Integer.parseInt(splitBy.getText().toString());
+                SplitBill(split, subTotalValue);
+            }
 		} catch (NumberFormatException nfe) {
 			// total.setText("");
 		}
 	}
+
+    private void setOnFocusChangeListener(TextView textView){
+
+        textView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(hasFocus) {
+                    focusedEditText = (EditText)v;
+                    //focusedEditText.setSelection(focusedEditText.getText().length());
+                }
+            }
+        });
+    }
 
 	private String CurrencyStringClean(String formatted) {
 		if (formatted == null || formatted.isEmpty())
@@ -369,6 +393,10 @@ public class SplitABillActivity extends Activity {
 		if (split <= 0 || billTotal.signum() < 1) {
 			adapter = new SplitBillAdapter(this, billList);
 			listview.setAdapter(adapter);
+
+            if(focusedEditText != null) {
+                focusedEditText.requestFocus();
+            }
 			return;
 		}
 
@@ -386,5 +414,8 @@ public class SplitABillActivity extends Activity {
 
 		adapter = new SplitBillAdapter(this, billList);
 		listview.setAdapter(adapter);
+        if(focusedEditText != null) {
+            focusedEditText.requestFocus();
+        }
 	}
 }
