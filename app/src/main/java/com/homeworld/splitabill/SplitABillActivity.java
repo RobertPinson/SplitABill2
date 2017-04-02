@@ -6,6 +6,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -32,12 +33,6 @@ public class SplitABillActivity extends Activity {
 
         super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splitabill);
-
-		// set list view header view
-		final ListView listview = (ListView) findViewById(R.id.listview_bills);
-		View header = getLayoutInflater().inflate(
-				R.layout.listview_bills_header, null);
-		listview.addHeaderView(header);
 
         final EditText total = (EditText) findViewById(R.id.total_value);
         setOnFocusChangeListener(total);
@@ -413,6 +408,7 @@ public class SplitABillActivity extends Activity {
 		}
 
 		adapter = new SplitBillAdapter(this, billList);
+
 		listview.setAdapter(adapter);
         if(focusedEditText != null) {
             focusedEditText.requestFocus();

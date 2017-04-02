@@ -33,8 +33,9 @@
             android:digits="0123456789"
             android:gravity="right"
             android:hint="@string/total_hint"
-            android:inputType="numberDecimal"
-            android:textAlignment="1" />
+            android:inputType="numberDecimal|textNoSuggestions|textVisiblePassword"
+            android:textAlignment="1"
+            />
     </LinearLayout>
 
     <LinearLayout
