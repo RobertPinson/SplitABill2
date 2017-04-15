@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pins
 	android:name
 		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:12:22-64
 application
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:14:5-36:19
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:14:5-37:19
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\pinso\.android\build-cache\404fc54a5cc2521c6ca9f5dfd2646efac5c469fd\output\AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\pinso\.android\build-cache\dd544a42fbe0ccc6b382055dbf37eb6114964900\output\AndroidManifest.xml:18:5-20:19
@@ -88,14 +88,14 @@ ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.google.android.gms.ads.AdActivity
-ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:31:9-33:125
+ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:31:9-34:15
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:25:9-232
 	android:configChanges
 		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:33:13-122
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:32:9-61
+		ADDED from C:\Users\pinso\StudioProjects\SplitABill\app\src\main\AndroidManifest.xml:32:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\pinso\.android\build-cache\0b0d3e585b79e975c3f041697f9f16917a1919ee\output\AndroidManifest.xml:26:9-131
 	android:theme

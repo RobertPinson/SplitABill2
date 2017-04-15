@@ -25,7 +25,7 @@ import java.util.Locale;
 public class SplitABillActivity extends Activity {
 	private AdView adView;
 	/* Your ad unit id. Replace with your actual ad unit id. */
-	private static final String AD_UNIT_ID = "ca-app-pub-7612725563518677/7747794144";
+	private static final String AD_UNIT_ID = "ca-app-pub-1589512828092674/5202883744";
 
     EditText focusedEditText;
 	@Override
@@ -41,6 +41,9 @@ public class SplitABillActivity extends Activity {
         setOnFocusChangeListener(serviceChargeValue);
 
 		SplitBill(0, new BigDecimal(0));
+
+		// Initialize the Mobile Ads SDK.
+		MobileAds.initialize(this, "ca-app-pub-1589512828092674~3726150548");
 
 		// Create ad view
 		adView = new AdView(this);
@@ -225,20 +228,28 @@ public class SplitABillActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		adView.destroy();
+		if(adView != null){
+			adView.destroy();
+		}
+
 		super.onDestroy();
 	}
 
 	@Override
 	protected void onPause() {
-		adView.pause();
+		if(adView != null) {
+			adView.pause();
+		}
 		super.onPause();
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
-		adView.resume();
+
+		if(adView != null) {
+			adView.resume();
+		}
 	}
 
 	public void splitMinus(View view) {
